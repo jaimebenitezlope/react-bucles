@@ -3,23 +3,30 @@ import { v4 } from 'uuid';
 export const CARD_DATA = [
 	{
 		id: v4(),
-		logo: '/assets/images/icon-sedans.svg',
-		title: 'SEDANS',
-		text: 'Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.',
-		color: '#E28625'
+		logo: '/src/utils/images/icon-facebook.svg',
+		title: '1987',
+		text: 'FOLLOWERS',
+		color: '#252B42'
 	},
 	{
 		id: v4(),
-		logo: '/assets/images/icon-suvs.svg',
-		title: 'SUVS',
-		text: 'Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.',
-		color: '#006971'
+		logo: '/src/utils/images/icon-twitter.svg',
+		title: '1044',
+		text: 'FOLLOWERS',
+		color: '#252B42'
 	},
 	{
 		id: v4(),
-		logo: '/assets/images/icon-luxury.svg',
-		title: 'LUXURY',
-		text: 'Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style. ',
-		color: '#004140'
+		logo: '/src/utils/images/icon-instagram.svg',
+		title: '11k',
+		text: 'FOLLOWERS',
+		color: '#252B42'
+	},
+	{
+		id: v4(),
+		logo: '/src/utils/images/icon-youtube.svg',
+		title: '8239',
+		text: 'SUBSCRIBERS',
+		color: '#252B42'
 	}
 ];

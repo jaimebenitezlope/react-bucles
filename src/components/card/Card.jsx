@@ -1,6 +1,5 @@
 import {
 	StyledCard,
-	StyledCardButton,
 	StyledCardLogo,
 	StyledCardText,
 	StyledCardTitle
@@ -12,7 +11,6 @@ const Card = ({ logo, title, text, color }) => {
 			<StyledCardLogo src={logo} alt='Sedan icon' />
 			<StyledCardTitle>{title}</StyledCardTitle>
 			<StyledCardText>{text}</StyledCardText>
-			<StyledCardButton $color={color}>Learn More</StyledCardButton>
 		</StyledCard>
 	);
 };

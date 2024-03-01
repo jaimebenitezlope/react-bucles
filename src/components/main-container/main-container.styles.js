@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
 const StyledMainContainer = styled.div`
-	width: 327px;
+	width: 375px;
 	margin-left: auto;
 	margin-right: auto;
 	overflow: hidden;
-	border-radius: 0.5rem;
-
+	background-color: #20222f;
 	@media screen and (width >= 768px) {
 		display: flex;
 		justify-content: center;

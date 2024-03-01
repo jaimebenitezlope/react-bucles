@@ -5,52 +5,32 @@ const StyledCard = styled.div`
 	flex-direction: column;
 	background-color: ${({ $color }) => $color};
 	color: white;
-	padding: 3rem;
-	width: 327px;
-	height: 442px;
+	width: 326px;
+	height: 216px;
 	font-family: 'Lexend Deca', sans-serif;
+	margin: 25px;
+	align-items: center;
+	border-radius: 10px;
 `;
 
 const StyledCardLogo = styled.img`
-	width: 4rem;
+	width: 1rem;
+	margin-top: 10px;
+	position: absolute;
+	margin-top: 30px;
 `;
 
 const StyledCardTitle = styled.h2`
-	font-size: 2.5rem;
-	font-family: 'Big shoulders display', sans-serif;
-	margin-bottom: 1.5625rem;
+	font-size: 3.5rem;
+	margin-bottom: 0rem;
 `;
 
 const StyledCardText = styled.p`
 	width: 13.25rem;
 	font-size: 0.9375rem;
-	line-height: 1.5625rem;
 	margin: 0;
 	width: fit-content;
+	color: #8c98c6;
 `;
 
-const StyledCardButton = styled.button`
-	margin-top: auto;
-	width: 146px;
-	padding: 0.6875rem 1.9375rem;
-	border: none;
-	border-radius: 1.5625rem;
-	color: ${({ $color }) => $color};
-	cursor: pointer;
-
-	@media (hover: hover) {
-		&:hover {
-			background-color: transparent;
-			color: white;
-			border: 1px solid white;
-		}
-	}
-`;
-
-export {
-	StyledCard,
-	StyledCardButton,
-	StyledCardLogo,
-	StyledCardText,
-	StyledCardTitle
-};
+export { StyledCard, StyledCardLogo, StyledCardText, StyledCardTitle };
